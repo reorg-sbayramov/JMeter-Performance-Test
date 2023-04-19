@@ -1,0 +1,433 @@
+2023-04-19 14:39:57,910 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-04-19 14:39:57,952 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-04-19 14:39:57,954 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: Version 5.5
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: java.version=19.0.1
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: os.name=Windows 10
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: os.arch=amd64
+2023-04-19 14:39:57,964 INFO o.a.j.JMeter: os.version=10.0
+2023-04-19 14:39:57,965 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-04-19 14:39:57,965 INFO o.a.j.JMeter: java.awt.headless=true
+2023-04-19 14:39:57,965 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-04-19 14:39:57,965 INFO o.a.j.JMeter: Available Processors =8
+2023-04-19 14:39:57,981 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-04-19 14:39:57,982 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-04-19 14:39:57,982 INFO o.a.j.JMeter: JMeterHome=C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5
+2023-04-19 14:39:57,982 INFO o.a.j.JMeter: user.dir  =C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-04-19 14:39:57,982 INFO o.a.j.JMeter: PWD       =C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-04-19 14:39:57,994 INFO o.a.j.JMeter: IP: 192.168.1.84 Name: PF2VNVKX FullName: 192.168.1.84
+2023-04-19 14:39:58,006 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\aadedokun\Desktop\JMeterHTMLReport'
+2023-04-19 14:39:58,008 INFO o.a.j.s.FileServer: Default base='C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin'
+2023-04-19 14:39:58,009 INFO o.a.j.s.FileServer: Set new base='C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\backups'
+2023-04-19 14:39:58,187 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-04-19 14:39:58,205 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-04-19 14:39:58,208 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-04-19 14:39:58,210 INFO o.a.j.s.SaveService: Loading file: \Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\backups\Reorg-Podcast-000001.jmx
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-04-19 14:39:58,245 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-04-19 14:39:58,264 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-04-19 14:39:58,267 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-04-19 14:39:58,267 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: \Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\backups\LoadResult2.csv
+2023-04-19 14:39:58,267 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\reportgenerator.properties
+2023-04-19 14:39:58,268 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-04-19 14:39:58,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-04-19 14:39:58,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-04-19 14:39:58,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-04-19 14:39:58,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-04-19 14:39:58,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2023-04-19 14:39:58,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2023-04-19 14:39:58,281 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-04-19 14:39:58,281 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2023-04-19 14:39:58,281 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-04-19 14:39:58,292 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-04-19 14:39:58,293 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-19 14:39:58,293 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-19 14:39:58,296 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-04-19 14:39:58,297 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-04-19 14:39:58,355 INFO o.a.j.JMeter: Running test (1681911598355)
+2023-04-19 14:39:58,370 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WebinarsAndPodcast
+2023-04-19 14:39:58,371 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group WebinarsAndPodcast.
+2023-04-19 14:39:58,371 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-04-19 14:39:58,371 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2023-04-19 14:39:58,378 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-1
+2023-04-19 14:39:58,393 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-04-19 14:39:58,393 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-04-19 14:39:58,399 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = PF2VNVKX
+2023-04-19 14:39:58,407 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-04-19 14:39:58,408 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-04-19 14:39:58,408 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-04-19 14:39:58,408 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-04-19 14:39:58,408 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-04-19 14:39:58,476 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-2
+2023-04-19 14:39:58,577 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-3
+2023-04-19 14:39:58,677 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-4
+2023-04-19 14:39:58,777 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-5
+2023-04-19 14:39:58,877 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-6
+2023-04-19 14:39:58,950 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-04-19 14:39:58,960 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-04-19 14:39:58,960 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-04-19 14:39:58,975 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-7
+2023-04-19 14:39:59,075 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-8
+2023-04-19 14:39:59,116 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-04-19 14:39:59,120 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-04-19 14:39:59,120 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-04-19 14:39:59,175 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-9
+2023-04-19 14:39:59,276 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-10
+2023-04-19 14:39:59,373 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-11
+2023-04-19 14:39:59,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-12
+2023-04-19 14:39:59,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-13
+2023-04-19 14:39:59,673 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-14
+2023-04-19 14:39:59,772 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-15
+2023-04-19 14:39:59,872 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-16
+2023-04-19 14:39:59,972 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-17
+2023-04-19 14:40:00,012 INFO o.a.j.r.Summariser: summary +     21 in 00:00:02 =   12.7/s Avg:   550 Min:   206 Max:  1196 Err:     0 (0.00%) Active: 17 Started: 17 Finished: 0
+2023-04-19 14:40:00,071 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-18
+2023-04-19 14:40:00,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-19
+2023-04-19 14:40:00,274 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-20
+2023-04-19 14:40:00,372 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-21
+2023-04-19 14:40:00,482 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-22
+2023-04-19 14:40:00,571 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-23
+2023-04-19 14:40:00,672 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-24
+2023-04-19 14:40:00,771 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-25
+2023-04-19 14:40:00,871 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-26
+2023-04-19 14:40:00,973 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-27
+2023-04-19 14:40:01,081 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-28
+2023-04-19 14:40:01,171 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-29
+2023-04-19 14:40:01,271 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-30
+2023-04-19 14:40:01,372 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-31
+2023-04-19 14:40:01,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-32
+2023-04-19 14:40:01,534 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-7
+2023-04-19 14:40:01,534 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-7
+2023-04-19 14:40:01,564 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-3
+2023-04-19 14:40:01,565 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-3
+2023-04-19 14:40:01,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-33
+2023-04-19 14:40:01,615 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-8
+2023-04-19 14:40:01,615 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-8
+2023-04-19 14:40:01,631 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-4
+2023-04-19 14:40:01,631 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-4
+2023-04-19 14:40:01,640 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-9
+2023-04-19 14:40:01,640 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-9
+2023-04-19 14:40:01,644 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-1
+2023-04-19 14:40:01,644 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-1
+2023-04-19 14:40:01,671 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-34
+2023-04-19 14:40:01,675 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-6
+2023-04-19 14:40:01,675 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-6
+2023-04-19 14:40:01,680 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-2
+2023-04-19 14:40:01,680 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-2
+2023-04-19 14:40:01,696 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-5
+2023-04-19 14:40:01,696 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-5
+2023-04-19 14:40:01,707 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-10
+2023-04-19 14:40:01,708 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-10
+2023-04-19 14:40:01,771 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-35
+2023-04-19 14:40:01,775 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-11
+2023-04-19 14:40:01,775 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-11
+2023-04-19 14:40:01,871 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-36
+2023-04-19 14:40:01,918 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-12
+2023-04-19 14:40:01,918 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-12
+2023-04-19 14:40:01,971 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-37
+2023-04-19 14:40:02,072 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-38
+2023-04-19 14:40:02,076 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-13
+2023-04-19 14:40:02,076 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-13
+2023-04-19 14:40:02,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-39
+2023-04-19 14:40:02,220 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-15
+2023-04-19 14:40:02,220 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-15
+2023-04-19 14:40:02,246 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-14
+2023-04-19 14:40:02,246 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-14
+2023-04-19 14:40:02,271 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-40
+2023-04-19 14:40:02,309 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-16
+2023-04-19 14:40:02,309 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-16
+2023-04-19 14:40:02,371 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-41
+2023-04-19 14:40:02,406 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-17
+2023-04-19 14:40:02,406 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-17
+2023-04-19 14:40:02,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-42
+2023-04-19 14:40:02,523 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-18
+2023-04-19 14:40:02,523 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-18
+2023-04-19 14:40:02,551 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-19
+2023-04-19 14:40:02,551 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-19
+2023-04-19 14:40:02,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-43
+2023-04-19 14:40:02,671 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-44
+2023-04-19 14:40:02,699 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-20
+2023-04-19 14:40:02,700 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-20
+2023-04-19 14:40:02,772 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-45
+2023-04-19 14:40:02,872 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-46
+2023-04-19 14:40:02,897 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-21
+2023-04-19 14:40:02,897 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-21
+2023-04-19 14:40:02,942 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-23
+2023-04-19 14:40:02,942 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-23
+2023-04-19 14:40:02,967 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-22
+2023-04-19 14:40:02,967 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-22
+2023-04-19 14:40:02,971 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-47
+2023-04-19 14:40:03,072 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-48
+2023-04-19 14:40:03,128 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-24
+2023-04-19 14:40:03,129 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-24
+2023-04-19 14:40:03,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-49
+2023-04-19 14:40:03,213 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-25
+2023-04-19 14:40:03,213 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-25
+2023-04-19 14:40:03,271 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-50
+2023-04-19 14:40:03,344 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-26
+2023-04-19 14:40:03,344 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-26
+2023-04-19 14:40:03,371 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-51
+2023-04-19 14:40:03,377 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-27
+2023-04-19 14:40:03,377 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-27
+2023-04-19 14:40:03,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-52
+2023-04-19 14:40:03,525 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-28
+2023-04-19 14:40:03,525 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-28
+2023-04-19 14:40:03,571 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-53
+2023-04-19 14:40:03,578 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-29
+2023-04-19 14:40:03,578 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-29
+2023-04-19 14:40:03,672 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-54
+2023-04-19 14:40:03,733 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-30
+2023-04-19 14:40:03,733 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-30
+2023-04-19 14:40:03,773 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-55
+2023-04-19 14:40:03,824 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-31
+2023-04-19 14:40:03,824 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-31
+2023-04-19 14:40:03,872 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-56
+2023-04-19 14:40:03,971 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-57
+2023-04-19 14:40:03,981 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-32
+2023-04-19 14:40:03,981 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-32
+2023-04-19 14:40:04,048 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-33
+2023-04-19 14:40:04,048 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-33
+2023-04-19 14:40:04,071 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-58
+2023-04-19 14:40:04,171 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-59
+2023-04-19 14:40:04,180 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-34
+2023-04-19 14:40:04,180 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-34
+2023-04-19 14:40:04,230 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-35
+2023-04-19 14:40:04,230 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-35
+2023-04-19 14:40:04,273 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-60
+2023-04-19 14:40:04,294 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-36
+2023-04-19 14:40:04,294 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-36
+2023-04-19 14:40:04,338 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-37
+2023-04-19 14:40:04,339 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-37
+2023-04-19 14:40:04,372 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-61
+2023-04-19 14:40:04,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-62
+2023-04-19 14:40:04,522 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-38
+2023-04-19 14:40:04,522 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-38
+2023-04-19 14:40:04,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-63
+2023-04-19 14:40:04,618 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-39
+2023-04-19 14:40:04,618 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-39
+2023-04-19 14:40:04,672 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-64
+2023-04-19 14:40:04,687 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-40
+2023-04-19 14:40:04,687 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-40
+2023-04-19 14:40:04,771 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-65
+2023-04-19 14:40:04,816 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-41
+2023-04-19 14:40:04,816 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-41
+2023-04-19 14:40:04,872 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-66
+2023-04-19 14:40:04,909 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-42
+2023-04-19 14:40:04,909 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-42
+2023-04-19 14:40:04,973 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-67
+2023-04-19 14:40:05,050 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-43
+2023-04-19 14:40:05,050 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-43
+2023-04-19 14:40:05,064 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-44
+2023-04-19 14:40:05,065 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-44
+2023-04-19 14:40:05,072 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-68
+2023-04-19 14:40:05,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-69
+2023-04-19 14:40:05,187 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-45
+2023-04-19 14:40:05,188 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-45
+2023-04-19 14:40:05,272 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-70
+2023-04-19 14:40:05,318 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-46
+2023-04-19 14:40:05,318 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-46
+2023-04-19 14:40:05,361 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-47
+2023-04-19 14:40:05,361 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-47
+2023-04-19 14:40:05,372 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-71
+2023-04-19 14:40:05,471 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-72
+2023-04-19 14:40:05,541 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-48
+2023-04-19 14:40:05,541 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-48
+2023-04-19 14:40:05,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-73
+2023-04-19 14:40:05,592 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-49
+2023-04-19 14:40:05,592 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-49
+2023-04-19 14:40:05,673 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-74
+2023-04-19 14:40:05,743 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-51
+2023-04-19 14:40:05,744 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-51
+2023-04-19 14:40:05,752 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-50
+2023-04-19 14:40:05,753 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-50
+2023-04-19 14:40:05,771 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-75
+2023-04-19 14:40:05,842 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-52
+2023-04-19 14:40:05,842 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-52
+2023-04-19 14:40:05,872 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-76
+2023-04-19 14:40:05,971 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-77
+2023-04-19 14:40:06,072 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-78
+2023-04-19 14:40:06,109 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-53
+2023-04-19 14:40:06,109 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-53
+2023-04-19 14:40:06,155 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-54
+2023-04-19 14:40:06,155 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-54
+2023-04-19 14:40:06,172 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-55
+2023-04-19 14:40:06,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-79
+2023-04-19 14:40:06,172 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-55
+2023-04-19 14:40:06,273 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-80
+2023-04-19 14:40:06,337 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-57
+2023-04-19 14:40:06,338 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-57
+2023-04-19 14:40:06,371 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-81
+2023-04-19 14:40:06,392 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-56
+2023-04-19 14:40:06,393 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-56
+2023-04-19 14:40:06,472 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-82
+2023-04-19 14:40:06,527 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-58
+2023-04-19 14:40:06,527 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-58
+2023-04-19 14:40:06,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-83
+2023-04-19 14:40:06,672 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-84
+2023-04-19 14:40:06,677 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-60
+2023-04-19 14:40:06,677 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-60
+2023-04-19 14:40:06,681 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-59
+2023-04-19 14:40:06,681 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-59
+2023-04-19 14:40:06,772 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-85
+2023-04-19 14:40:06,812 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-61
+2023-04-19 14:40:06,812 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-61
+2023-04-19 14:40:06,858 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-62
+2023-04-19 14:40:06,858 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-62
+2023-04-19 14:40:06,873 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-86
+2023-04-19 14:40:06,972 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-87
+2023-04-19 14:40:06,995 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-63
+2023-04-19 14:40:06,995 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-63
+2023-04-19 14:40:07,072 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-88
+2023-04-19 14:40:07,096 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-64
+2023-04-19 14:40:07,096 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-64
+2023-04-19 14:40:07,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-89
+2023-04-19 14:40:07,270 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-65
+2023-04-19 14:40:07,270 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-65
+2023-04-19 14:40:07,272 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-90
+2023-04-19 14:40:07,352 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-66
+2023-04-19 14:40:07,352 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-66
+2023-04-19 14:40:07,372 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-91
+2023-04-19 14:40:07,422 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-67
+2023-04-19 14:40:07,422 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-67
+2023-04-19 14:40:07,471 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-92
+2023-04-19 14:40:07,530 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-68
+2023-04-19 14:40:07,530 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-68
+2023-04-19 14:40:07,572 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-93
+2023-04-19 14:40:07,655 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-69
+2023-04-19 14:40:07,656 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-69
+2023-04-19 14:40:07,672 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-94
+2023-04-19 14:40:07,679 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-70
+2023-04-19 14:40:07,679 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-70
+2023-04-19 14:40:07,773 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-95
+2023-04-19 14:40:07,827 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-71
+2023-04-19 14:40:07,827 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-71
+2023-04-19 14:40:07,871 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-72
+2023-04-19 14:40:07,871 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-72
+2023-04-19 14:40:07,873 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-96
+2023-04-19 14:40:07,972 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-97
+2023-04-19 14:40:08,023 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-73
+2023-04-19 14:40:08,023 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-73
+2023-04-19 14:40:08,071 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-98
+2023-04-19 14:40:08,105 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-74
+2023-04-19 14:40:08,105 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-74
+2023-04-19 14:40:08,172 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-99
+2023-04-19 14:40:08,184 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-75
+2023-04-19 14:40:08,184 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-75
+2023-04-19 14:40:08,271 INFO o.a.j.t.JMeterThread: Thread started: WebinarsAndPodcast 1-100
+2023-04-19 14:40:08,292 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-76
+2023-04-19 14:40:08,292 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-76
+2023-04-19 14:40:08,481 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-77
+2023-04-19 14:40:08,481 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-77
+2023-04-19 14:40:08,549 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-78
+2023-04-19 14:40:08,550 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-78
+2023-04-19 14:40:08,724 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-79
+2023-04-19 14:40:08,725 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-79
+2023-04-19 14:40:08,735 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-80
+2023-04-19 14:40:08,735 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-80
+2023-04-19 14:40:08,836 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-81
+2023-04-19 14:40:08,836 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-81
+2023-04-19 14:40:08,842 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-82
+2023-04-19 14:40:08,843 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-82
+2023-04-19 14:40:08,996 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-83
+2023-04-19 14:40:08,996 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-83
+2023-04-19 14:40:09,091 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-84
+2023-04-19 14:40:09,091 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-84
+2023-04-19 14:40:09,197 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-85
+2023-04-19 14:40:09,197 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-85
+2023-04-19 14:40:09,394 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-87
+2023-04-19 14:40:09,395 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-87
+2023-04-19 14:40:09,442 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-88
+2023-04-19 14:40:09,442 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-88
+2023-04-19 14:40:09,457 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-86
+2023-04-19 14:40:09,457 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-86
+2023-04-19 14:40:09,652 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-89
+2023-04-19 14:40:09,652 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-89
+2023-04-19 14:40:09,688 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-90
+2023-04-19 14:40:09,688 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-90
+2023-04-19 14:40:09,769 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-91
+2023-04-19 14:40:09,769 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-91
+2023-04-19 14:40:09,975 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-93
+2023-04-19 14:40:09,975 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-93
+2023-04-19 14:40:10,024 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-92
+2023-04-19 14:40:10,024 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-92
+2023-04-19 14:40:10,091 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-94
+2023-04-19 14:40:10,091 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-94
+2023-04-19 14:40:10,171 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-95
+2023-04-19 14:40:10,171 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-95
+2023-04-19 14:40:10,316 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-96
+2023-04-19 14:40:10,316 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-96
+2023-04-19 14:40:10,374 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-97
+2023-04-19 14:40:10,375 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-97
+2023-04-19 14:40:10,438 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-98
+2023-04-19 14:40:10,438 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-98
+2023-04-19 14:40:10,725 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-100
+2023-04-19 14:40:10,725 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-100
+2023-04-19 14:40:10,747 INFO o.a.j.t.JMeterThread: Thread is done: WebinarsAndPodcast 1-99
+2023-04-19 14:40:10,747 INFO o.a.j.t.JMeterThread: Thread finished: WebinarsAndPodcast 1-99
+2023-04-19 14:40:10,748 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-04-19 14:40:10,749 INFO o.a.j.r.Summariser: summary +    979 in 00:00:11 =   91.1/s Avg:   241 Min:   196 Max:   596 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2023-04-19 14:40:10,750 INFO o.a.j.r.Summariser: summary =   1000 in 00:00:12 =   80.7/s Avg:   247 Min:   196 Max:  1196 Err:     0 (0.00%)
+2023-04-19 14:40:10,751 INFO o.a.j.JMeter: Generating Dashboard
+2023-04-19 14:40:10,751 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-04-19 14:40:10,768 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-04-19 14:40:11,020 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-04-19 14:40:11,021 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-04-19 14:40:11,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-04-19 14:40:11,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-04-19 14:40:11,036 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-04-19 14:40:11,039 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-04-19 14:40:11,040 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-04-19 14:40:11,040 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-04-19 14:40:11,101 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-04-19 14:40:11,102 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-04-19 14:40:11,103 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-04-19 14:40:11,103 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-04-19 14:40:11,159 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 21000 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-04-19 14:40:11,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-04-19 14:40:11,163 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 45000 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 9000 samples
+2023-04-19 14:40:11,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 3000 samples
+2023-04-19 14:40:11,167 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 3000 samples produced in 363ms on channel 0
+2023-04-19 14:40:11,167 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2023-04-19 14:40:11,323 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2023-04-19 14:40:11,323 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2023-04-19 14:40:11,323 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2023-04-19 14:40:11,324 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2023-04-19 14:40:11,324 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\aadedokun\Desktop\JMeterHTMLReport\statistics.json
+2023-04-19 14:40:11,386 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-04-19 14:40:11,390 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\aadedokun\Desktop\JMeterHTMLReport
+2023-04-19 14:40:11,528 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\aadedokun\Desktop\JMeterHTMLReport, creating folder structure
+2023-04-19 14:40:11,531 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\aadedokun\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\report-template' to 'C:\Users\aadedokun\Desktop\JMeterHTMLReport', got message: C:\Users\aadedokun\Desktop\JMeterHTMLReport, found non empty folder with following content [C:\Users\aadedokun\Desktop\JMeterHTMLReport\statistics.json], will be ignored
+2023-04-19 14:40:12,111 INFO o.a.j.JMeter: Dashboard generated
